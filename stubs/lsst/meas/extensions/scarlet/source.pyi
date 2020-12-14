@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def modelToHeavy(source: Any, filters: Any, xy0: Any = ..., observation: Optional[Any] = ..., dtype: Any = ...): ...

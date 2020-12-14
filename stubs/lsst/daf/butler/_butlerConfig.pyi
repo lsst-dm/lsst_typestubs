@@ -1,0 +1,6 @@
+from .core import ButlerURI, Config
+from typing import Any, Optional, Sequence, Union
+
+class ButlerConfig(Config):
+    configDir: Any = ...
+    def __init__(self, other: Optional[Union[str, ButlerURI, Config]]=..., searchPaths: Sequence[Union[str, ButlerURI]]=...) -> None: ...

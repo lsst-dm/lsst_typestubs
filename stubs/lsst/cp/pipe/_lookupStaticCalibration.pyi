@@ -1,0 +1,3 @@
+from typing import Any
+
+def lookupStaticCalibration(datasetType: Any, registry: Any, quantumDataId: Any, collections: Any): ...

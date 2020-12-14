@@ -1,0 +1,6 @@
+import lsst.pipe.base as pipeBase
+from typing import Any, Optional
+
+class ApPipeParser(pipeBase.ArgumentParser):
+    def __init__(self, *args: Any, **kwargs: Any) -> None: ...
+    def parse_args(self, config: Any, args: Optional[Any] = ..., log: Optional[Any] = ..., override: Optional[Any] = ...): ...

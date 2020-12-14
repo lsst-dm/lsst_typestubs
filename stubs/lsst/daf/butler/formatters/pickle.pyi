@@ -1,0 +1,6 @@
+from .file import FileFormatter
+from typing import Any
+
+class PickleFormatter(FileFormatter):
+    extension: str = ...
+    unsupportedParameters: Any = ...

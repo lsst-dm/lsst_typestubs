@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def checksum(obj: Any, header: Optional[Any] = ..., sumType: str = ...): ...

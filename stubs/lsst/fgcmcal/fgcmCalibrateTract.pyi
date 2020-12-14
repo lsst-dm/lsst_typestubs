@@ -1,0 +1,9 @@
+from .fgcmCalibrateTractBase import FgcmCalibrateTractBaseTask, FgcmCalibrateTractConfigBase
+from typing import Any
+
+class FgcmCalibrateTractConfig(FgcmCalibrateTractConfigBase):
+    def setDefaults(self) -> None: ...
+
+class FgcmCalibrateTractTask(FgcmCalibrateTractBaseTask):
+    ConfigClass: Any = ...
+    RunnerClass: Any = ...

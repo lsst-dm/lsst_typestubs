@@ -1,0 +1,6 @@
+from lsst.coadd.utils import CoaddDataIdContainer
+from typing import Any
+
+class PerTractCcdDataIdContainer(CoaddDataIdContainer):
+    def castDataIds(self, butler: Any) -> None: ...
+    def makeDataRefList(self, namespace: Any) -> None: ...

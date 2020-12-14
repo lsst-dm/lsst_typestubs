@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def denormalizeMatches(matches: Any, matchMeta: Optional[Any] = ...): ...

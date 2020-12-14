@@ -1,0 +1,6 @@
+import lsst.pex.config as pexConfig
+from typing import Any
+
+class TransformMapConfig(pexConfig.Config):
+    transforms: Any = ...
+    nativeSys: Any = ...

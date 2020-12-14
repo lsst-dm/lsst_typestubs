@@ -1,0 +1,6 @@
+from lsst.daf.butler.formatters.file import FileFormatter
+from typing import Any
+
+class FitsGenericFormatter(FileFormatter):
+    supportedExtensions: Any = ...
+    extension: str = ...

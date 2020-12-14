@@ -1,0 +1,6 @@
+from lsst.ctrl.orca.CondorJobs import CondorJobs as CondorJobs
+from typing import Any
+
+class PegasusJobs(CondorJobs):
+    def __init__(self) -> None: ...
+    def pegasusSubmitDax(self, sitesFile: Any, transformationFile: Any, daxFile: Any): ...

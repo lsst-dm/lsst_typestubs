@@ -1,0 +1,6 @@
+from lsst.daf.butler.formatters.file import FileFormatter
+from typing import Any
+
+class FilterFormatter(FileFormatter):
+    extension: str = ...
+    unsupportedParameters: Any = ...

@@ -1,0 +1,3 @@
+from typing import Any
+
+def draw_networkx_dot(graph: Any, outname: Any) -> None: ...

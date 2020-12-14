@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def output_quantities(package_name: Any, quantities: Any, suffix: Optional[Any] = ..., include_metrics: bool = ..., metrics_package: str = ...): ...

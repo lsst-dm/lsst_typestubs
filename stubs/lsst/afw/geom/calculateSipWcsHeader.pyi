@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def calculateSipWcsHeader(wcs: Any, order: Any, bbox: Any, spacing: Any, header: Optional[Any] = ...): ...

@@ -1,0 +1,9 @@
+from .sourceSelector import BaseSourceSelectorTask
+from typing import Any, Optional
+
+class FlaggedSourceSelectorConfig(BaseSourceSelectorTask.ConfigClass):
+    field: Any = ...
+
+class FlaggedSourceSelectorTask(BaseSourceSelectorTask):
+    ConfigClass: Any = ...
+    def selectSources(self, sourceCat: Any, matches: Optional[Any] = ..., exposure: Optional[Any] = ...): ...

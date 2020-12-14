@@ -1,0 +1,3 @@
+from typing import Any, Optional
+
+def checkMatches(srcMatchSet: Any, exposure: Any, log: Optional[Any] = ...): ...

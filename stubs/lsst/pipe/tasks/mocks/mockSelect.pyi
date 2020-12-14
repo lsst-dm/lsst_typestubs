@@ -1,0 +1,6 @@
+import lsst.pipe.base
+from typing import Any
+
+class MockSelectImagesTask(lsst.pipe.base.Task):
+    ConfigClass: Any = ...
+    def runDataRef(self, dataRef: Any, coordList: Any, makeDataRefList: bool = ..., selectDataList: Any = ...): ...

@@ -1,0 +1,6 @@
+from typing import Any
+
+class _MockTestCase:
+    def fail(self, msgStr: Any) -> None: ...
+
+def approximateWcs(wcs: Any, bbox: Any, order: int = ..., nx: int = ..., ny: int = ..., iterations: int = ..., skyTolerance: Any = ..., pixelTolerance: float = ..., useTanWcs: bool = ...): ...

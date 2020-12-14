@@ -1,0 +1,6 @@
+from lsst.ctrl.execute.allocator import Allocator as Allocator
+from typing import Any
+
+class PbsPlugin(Allocator):
+    def submit(self, platform: Any, platformPkgDir: Any) -> None: ...
+    def loadPbs(self, name: Any) -> None: ...

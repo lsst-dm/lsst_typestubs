@@ -1,0 +1,9 @@
+from lsst.daf.butler.cli.butler import LoaderCLI as LoaderCLI
+from lsst.daf.butler.cli.opt import log_level_option as log_level_option, long_log_option as long_log_option
+from typing import Any
+
+class BpsCli(LoaderCLI):
+    localCmdPkg: str = ...
+
+def cli(log_level: Any, long_log: Any) -> None: ...
+def main(): ...

@@ -1,0 +1,1 @@
+from .makeDiscreteSkyMap import makeDiscreteSkyMap as makeDiscreteSkyMap

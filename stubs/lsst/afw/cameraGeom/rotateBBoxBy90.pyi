@@ -1,0 +1,3 @@
+from typing import Any
+
+def rotateBBoxBy90(bbox: Any, n90: Any, dimensions: Any): ...

@@ -1,0 +1,3 @@
+from typing import Any
+
+def wcsAlmostEqualOverBBox(wcs0: Any, wcs1: Any, bbox: Any, maxDiffSky: Any = ..., maxDiffPix: float = ..., nx: int = ..., ny: int = ...): ...

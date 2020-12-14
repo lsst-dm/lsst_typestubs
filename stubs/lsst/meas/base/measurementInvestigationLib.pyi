@@ -1,0 +1,6 @@
+from lsst.afw.table import Schema as Schema, SourceCatalog as SourceCatalog
+from lsst.meas.base import NoiseReplacer as NoiseReplacer, NoiseReplacerConfig as NoiseReplacerConfig
+from typing import Any, Optional
+
+def rebuildNoiseReplacer(exposure: Any, measCat: Any): ...
+def makeRerunCatalog(schema: Any, oldCatalog: Any, idList: Any, fields: Optional[Any] = ..., resetParents: bool = ..., addParents: bool = ...): ...

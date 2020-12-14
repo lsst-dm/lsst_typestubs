@@ -1,0 +1,3 @@
+from typing import Any
+
+def removeDatasetType(repo: Any, dataset_type_name: Any) -> None: ...

@@ -1,0 +1,6 @@
+from lsst.pipe.base import Task
+from typing import Any
+
+class SquashMetadataTask(Task):
+    ConfigClass: Any = ...
+    def run(self, job: Any, dataref: Any, **kwargs: Any): ...
